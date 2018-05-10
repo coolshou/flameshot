@@ -1,3 +1,9 @@
+flameshot (0.6.0-20180509) UNRELEASED; urgency=medium
+
+  * new upstream
+
+ -- coolshou <coolshou@coolshou-desktop>  Sat, 05 May 2018 23:02:25 +0800
+
 flameshot (0.6~dev-1) unstable; urgency=medium
 
   * Initial deb package.

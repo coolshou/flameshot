@@ -40,7 +40,7 @@
     <message>
         <location filename="../src/tools/launcher/applauncherwidget.cpp" line="112"/>
         <source>Unable to launch in terminal.</source>
-        <translation>無法在終端機中啟動</translation>
+        <translation>無法在終端機中啟動.</translation>
     </message>
     <message>
         <location filename="../src/tools/launcher/applauncherwidget.cpp" line="99"/>
@@ -85,7 +85,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
         <translation>用滑鼠選擇一個區域,或按 Esc 退出
 按 Enter 鍵擷取螢幕
 按滑鼠右鍵顯示顏色選擇器
-使用滑鼠滾輪來改變繪製工具的寬度</translation>
+使用滑鼠滾輪來改變繪製工具的寬度.</translation>
     </message>
     <message>
         <location filename="../src/widgets/capture/capturewidget.cpp" line="79"/>
@@ -134,22 +134,22 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/core/controller.cpp" line="109"/>
         <source>&amp;Take Screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>螢幕截圖(&amp;T)</translation>
     </message>
     <message>
         <location filename="../src/core/controller.cpp" line="114"/>
         <source>&amp;Configuration</source>
-        <translation>&amp;設定</translation>
+        <translation>設定(&amp;C)</translation>
     </message>
     <message>
         <location filename="../src/core/controller.cpp" line="117"/>
         <source>&amp;Information</source>
-        <translation>&amp;資訊</translation>
+        <translation>資訊(&amp;I)</translation>
     </message>
     <message>
         <location filename="../src/core/controller.cpp" line="120"/>
         <source>&amp;Quit</source>
-        <translation>&amp;結束</translation>
+        <translation>結束(&amp;Q)</translation>
     </message>
 </context>
 <context>
@@ -259,7 +259,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="130"/>
         <source>Show the help message at the beginning in the capture mode.</source>
-        <translation>在擷取之前顯示説明資訊</translation>
+        <translation>在擷取之前顯示説明資訊.</translation>
     </message>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="140"/>
@@ -293,13 +293,13 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="85"/>
         <source>Unable to read file.</source>
-        <translation>無法讀取檔案</translation>
+        <translation>無法讀取檔案.</translation>
     </message>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="93"/>
         <location filename="../src/config/geneneralconf.cpp" line="109"/>
         <source>Unable to write file.</source>
-        <translation>無法寫入檔案</translation>
+        <translation>無法寫入檔案.</translation>
     </message>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="101"/>
@@ -339,7 +339,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="195"/>
         <source>Launch Flameshot</source>
-        <translation type="unfinished"></translation>
+        <translation>啟動 Flameshot</translation>
     </message>
 </context>
 <context>
@@ -367,22 +367,22 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/tools/imgur/imguruploader.cpp" line="131"/>
         <source>Image to Clipboard.</source>
-        <translation>將檔案複製到剪貼簿</translation>
+        <translation>將檔案複製到剪貼簿.</translation>
     </message>
     <message>
         <location filename="../src/tools/imgur/imguruploader.cpp" line="148"/>
         <source>Unable to open the URL.</source>
-        <translation>無法打開此連結</translation>
+        <translation>無法打開此連結.</translation>
     </message>
     <message>
         <location filename="../src/tools/imgur/imguruploader.cpp" line="154"/>
         <source>URL copied to clipboard.</source>
-        <translation>連結已複製到剪貼簿</translation>
+        <translation>連結已複製到剪貼簿.</translation>
     </message>
     <message>
         <location filename="../src/tools/imgur/imguruploader.cpp" line="159"/>
         <source>Screenshot copied to clipboard.</source>
-        <translation>截圖已複製到剪貼簿</translation>
+        <translation>截圖已複製到剪貼簿.</translation>
     </message>
 </context>
 <context>
@@ -483,7 +483,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/widgets/infowindow.cpp" line="65"/>
         <source>Available shortcuts in the screen capture mode.</source>
-        <translation>螢幕擷取模式中的可用快速鍵</translation>
+        <translation>螢幕擷取模式中的可用快速鍵.</translation>
     </message>
 </context>
 <context>
@@ -543,12 +543,12 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/tools/pin/pintool.cpp" line="34"/>
         <source>Pin Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>圖釘工具</translation>
     </message>
     <message>
         <location filename="../src/tools/pin/pintool.cpp" line="42"/>
         <source>Pin image on the desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>釘在桌面</translation>
     </message>
 </context>
 <context>
@@ -567,7 +567,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/utils/screenshotsaver.cpp" line="33"/>
         <source>Capture saved to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>截圖已複製到剪貼簿</translation>
     </message>
     <message>
         <location filename="../src/utils/screenshotsaver.cpp" line="48"/>
@@ -586,12 +586,12 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/tools/launcher/openwithprogram.cpp" line="39"/>
         <source>Error</source>
-        <translation type="unfinished">錯誤</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../src/tools/launcher/openwithprogram.cpp" line="40"/>
         <source>Unable to write in</source>
-        <translation type="unfinished">無法寫入</translation>
+        <translation>無法寫入</translation>
     </message>
 </context>
 <context>
@@ -612,7 +612,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/tools/redo/redotool.cpp" line="34"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>重作</translation>
     </message>
 </context>
 <context>
@@ -767,7 +767,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/utils/systemnotification.cpp" line="28"/>
         <source>Flameshot Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Flameshot 資訊</translation>
     </message>
 </context>
 <context>
@@ -780,7 +780,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/config/uicoloreditor.cpp" line="93"/>
         <source>Change the color moving the selectors and see the changes in the preview buttons.</source>
-        <translation>移動顏色選擇並在預覽按鈕檢視</translation>
+        <translation>移動顏色選擇並在預覽按鈕檢視.</translation>
     </message>
     <message>
         <location filename="../src/config/uicoloreditor.cpp" line="103"/>
@@ -795,7 +795,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/config/uicoloreditor.cpp" line="116"/>
         <source>Click on this button to set the edition mode of the main color.</source>
-        <translation>點選按鈕設定主色</translation>
+        <translation>點選按鈕設定主色.</translation>
     </message>
     <message>
         <location filename="../src/config/uicoloreditor.cpp" line="127"/>
@@ -805,7 +805,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/config/uicoloreditor.cpp" line="132"/>
         <source>Click on this button to set the edition mode of the contrast color.</source>
-        <translation>點選按鈕設定對比色</translation>
+        <translation>點選按鈕設定對比色.</translation>
     </message>
 </context>
 <context>
@@ -826,7 +826,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     <message>
         <location filename="../src/config/visualseditor.cpp" line="53"/>
         <source>Opacity of area outside selection:</source>
-        <translation>選擇區域以外的不透明度</translation>
+        <translation>選擇區域以外的不透明度:</translation>
     </message>
     <message>
         <location filename="../src/config/visualseditor.cpp" line="77"/>

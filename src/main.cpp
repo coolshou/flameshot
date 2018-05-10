@@ -50,8 +50,11 @@ int main(int argc, char *argv[]) {
         QStringList trPaths = PathInfo::translationsPaths();
         bool match = false;
         for (const QString &path: trPaths) {
-            match = translator.load(QLocale::system().language(),
-                                    "Internationalization", "_",
+            //match = translator.load(QLocale::system().language(),
+            //                        "Internationalization", "_",
+            //                       path);
+            QLocale ql = QLocale(QLocale::system().language(), QLocale::system().country());
+            match = translator.load(ql, "Internationalization", "_",
                                     path);
             if (match) {
                 break;
