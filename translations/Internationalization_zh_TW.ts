@@ -77,7 +77,7 @@
 <context>
     <name>CaptureWidget</name>
     <message>
-        <location filename="../src/widgets/capture/capturewidget.cpp" line="215"/>
+        <location filename="../src/widgets/capture/capturewidget.cpp" line="230"/>
         <source>Select an area with the mouse, or press Esc to exit.
 Press Enter to capture the screen.
 Press Right Click to show the color picker.
@@ -88,7 +88,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
 使用滑鼠滾輪來改變繪製工具的寬度.</translation>
     </message>
     <message>
-        <location filename="../src/widgets/capture/capturewidget.cpp" line="79"/>
+        <location filename="../src/widgets/capture/capturewidget.cpp" line="80"/>
         <source>Unable to capture screen</source>
         <translation>無法擷取螢幕</translation>
     </message>
@@ -132,22 +132,22 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
 <context>
     <name>Controller</name>
     <message>
-        <location filename="../src/core/controller.cpp" line="109"/>
+        <location filename="../src/core/controller.cpp" line="169"/>
         <source>&amp;Take Screenshot</source>
         <translation>螢幕截圖(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/core/controller.cpp" line="114"/>
+        <location filename="../src/core/controller.cpp" line="174"/>
         <source>&amp;Configuration</source>
         <translation>設定(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/core/controller.cpp" line="117"/>
+        <location filename="../src/core/controller.cpp" line="177"/>
         <source>&amp;Information</source>
         <translation>資訊(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../src/core/controller.cpp" line="120"/>
+        <location filename="../src/core/controller.cpp" line="180"/>
         <source>&amp;Quit</source>
         <translation>結束(&amp;Q)</translation>
     </message>
@@ -168,7 +168,7 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
 <context>
     <name>DBusUtils</name>
     <message>
-        <location filename="../src/utils/dbusutils.cpp" line="35"/>
+        <location filename="../src/utils/dbusutils.cpp" line="43"/>
         <source>Unable to connect via DBus</source>
         <translation>無法透過 DBus 進行連接</translation>
     </message>
@@ -244,9 +244,8 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
 <context>
     <name>FlameshotDBusAdapter</name>
     <message>
-        <location filename="../src/core/flameshotdbusadapter.cpp" line="57"/>
         <source>Unable to capture screen</source>
-        <translation>無法擷取螢幕</translation>
+        <translation type="vanished">無法擷取螢幕</translation>
     </message>
 </context>
 <context>
@@ -345,42 +344,48 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
 <context>
     <name>ImgurUploader</name>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="45"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="47"/>
         <source>Upload to Imgur</source>
         <translation>上傳到 Imgur</translation>
     </message>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="51"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="53"/>
         <source>Uploading Image</source>
         <translation>正在上傳</translation>
     </message>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="129"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="133"/>
         <source>Copy URL</source>
         <translation>複製連結</translation>
     </message>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="130"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="134"/>
         <source>Open URL</source>
         <translation>打開連結</translation>
     </message>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="131"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="135"/>
+        <source>Delete image</source>
+        <translation>刪除影像</translation>
+    </message>
+    <message>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="136"/>
         <source>Image to Clipboard.</source>
         <translation>將檔案複製到剪貼簿.</translation>
     </message>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="148"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="156"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="169"/>
         <source>Unable to open the URL.</source>
         <translation>無法打開此連結.</translation>
     </message>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="154"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="162"/>
         <source>URL copied to clipboard.</source>
         <translation>連結已複製到剪貼簿.</translation>
     </message>
     <message>
-        <location filename="../src/tools/imgur/imguruploader.cpp" line="159"/>
+        <location filename="../src/tools/imgur/imguruploader.cpp" line="175"/>
         <source>Screenshot copied to clipboard.</source>
         <translation>截圖已複製到剪貼簿.</translation>
     </message>
@@ -576,10 +581,10 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
         <translation>嘗試另存新檔時發生錯誤 </translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="71"/>
-        <location filename="../src/main.cpp" line="302"/>
-        <location filename="../src/main.cpp" line="326"/>
-        <location filename="../src/main.cpp" line="355"/>
+        <location filename="../src/main.cpp" line="75"/>
+        <location filename="../src/main.cpp" line="362"/>
+        <location filename="../src/main.cpp" line="386"/>
+        <location filename="../src/main.cpp" line="415"/>
         <source>Unable to connect via DBus</source>
         <translation>無法透過 DBus 進行連接</translation>
     </message>
@@ -626,6 +631,14 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
         <location filename="../src/tools/save/savetool.cpp" line="43"/>
         <source>Save the capture</source>
         <translation>儲存擷取</translation>
+    </message>
+</context>
+<context>
+    <name>ScreenGrabber</name>
+    <message>
+        <location filename="../src/utils/screengrabber.cpp" line="70"/>
+        <source>Unable to capture screen</source>
+        <translation>無法擷取螢幕</translation>
     </message>
 </context>
 <context>
@@ -723,13 +736,21 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
     </message>
     <message>
         <location filename="../src/config/strftimechooserwidget.cpp" line="60"/>
-        <source>Time (%H:%M:%S)</source>
-        <translation>時間 (%H:%M:%S)</translation>
+        <source>Time (%H-%M-%S)</source>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/config/strftimechooserwidget.cpp" line="61"/>
+        <source>Time (%H-%M)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Time (%H:%M:%S)</source>
+        <translation type="vanished">時間 (%H:%M:%S)</translation>
+    </message>
+    <message>
         <source>Time (%H:%M)</source>
-        <translation>時間 (%H:%M)</translation>
+        <translation type="vanished">時間 (%H:%M)</translation>
     </message>
     <message>
         <location filename="../src/config/strftimechooserwidget.cpp" line="62"/>
@@ -768,6 +789,19 @@ Use the Mouse Wheel to change the thickness of your tool.</source>
         <location filename="../src/utils/systemnotification.cpp" line="28"/>
         <source>Flameshot Info</source>
         <translation>Flameshot 資訊</translation>
+    </message>
+</context>
+<context>
+    <name>TextTool</name>
+    <message>
+        <location filename="../src/tools/text/texttool.cpp" line="50"/>
+        <source>Text</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <location filename="../src/tools/text/texttool.cpp" line="58"/>
+        <source>Add text to your capture</source>
+        <translation>在截圖中加入文字</translation>
     </message>
 </context>
 <context>
